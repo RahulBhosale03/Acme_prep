@@ -1,21 +1,23 @@
-package Advanced_Pattern;
-//          1
-//         212
-//        32123
-//       4321234
-public class Pattern05 {
+package Acme_Patterns;
+//             1
+//            212
+//           32123
+//          4321234
+//         543212345
+public class Pattern07 {
     public static void main(String[] args) {
-        int n=5;
-        for (int i=0;i<n;i++){
-            //space
-            for (int j=0;j<n-i;j++){
+        int n = 5;
+
+        for (int i=1;i<=n;i++){
+            //Space
+            for (int j=1;j<=n-i;j++){
                 System.out.print(" ");
             }
-            //First half
+            //Triangle
             for (int j=i;j>=1;j--){
                 System.out.print(j);
             }
-            //Second half
+            //Triangle
             for (int j=2;j<=i;j++){
                 System.out.print(j);
             }
