@@ -1,5 +1,4 @@
 package Acme_Patterns;
-
 //        *
 //        10 20
 //        *  *  *
