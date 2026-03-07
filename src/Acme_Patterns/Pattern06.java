@@ -28,11 +28,12 @@ public class Pattern06 {
                 }
             }
             System.out.println();
-
-            if(i<mid && i%2==0){
-                num--;
-            }else if(i>mid && i%2==0){
-                num++;
+            if(i%2==0){
+                if(i<mid){
+                    num--;
+                }else{
+                    num++;
+                }
             }
         }
     }

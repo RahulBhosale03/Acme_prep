@@ -1,5 +1,17 @@
 package Acme_Patterns;
-
+//               1
+//              *  *
+//             2    2
+//            *      *
+//           3        3
+//          *          *
+//         4            4
+//          *          *
+//           3        3
+//            *      *
+//             2    2
+//              *  *
+//                1
 public class Pattern10 {
     public static void main(String[] args) {
 
